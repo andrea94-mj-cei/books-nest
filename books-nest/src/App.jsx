@@ -1,4 +1,4 @@
-
+import LandingPage from './pages/LandingPage'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import './css/App.css'
@@ -11,10 +11,12 @@ function App() {
     <header>
       <Header/>
     </header>
-    <main></main>
+    <main>
+    <LandingPage/>
+    </main>
     <footer>
-      {/* <Footer/> */}
-    </footer>
+      <Footer/>
+    </footer>     
     </>
   )
 }

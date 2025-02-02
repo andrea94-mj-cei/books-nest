@@ -1,2 +1,40 @@
 /* HEADER */
 
+.Header{
+    padding: 1.5rem 5rem;
+    color: white;
+}
+
+.Header-logo{
+    width: 25rem;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px orange;
+}
+
+.Header-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.Footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+}
+
+.Footer-a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.Footer-p{
+    color: orange;
+    font-size: 1.2rem;
+}

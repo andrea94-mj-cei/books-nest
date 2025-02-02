@@ -1,0 +1,43 @@
+.Landing-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: black;
+  }
+  
+  .Landing-contenido {
+    max-width: 70%;
+  }
+
+  .BookIcon {
+    width: 22rem;
+    margin: 0 auto 2rem;
+    animation: rotate 2s infinite alternate;
+  }
+
+  @keyframes rotate {
+    0% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+  
+.Landing-h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 2rem;
+  }
+  
+.Landing-p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
