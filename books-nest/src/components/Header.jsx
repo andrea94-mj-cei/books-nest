@@ -8,14 +8,14 @@ export const Header = () => {
         <>
             <header className="Header">
                 <img src={headerLogo} alt="Header-logo" className='Header-logo' />
-                    {/* <nav>
+                    <nav>
                         <ul className="Header-ul">
-                            <li>Home</li>
-                            <li>Buscador</li>
-                            <li>Registro</li>
-                            <li>Mi perfil</li>
+                            <li className='Header-li'>Home</li>
+                            <li className='Header-li'>Buscador</li>
+                            <li className='Header-li'>Registro</li>
+                            <li className='Header-li'>Mi perfil</li>
                         </ul>
-                    </nav> */}
+                    </nav>
             </header>
         </>
     );
