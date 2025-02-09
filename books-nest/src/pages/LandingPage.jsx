@@ -12,7 +12,7 @@ const LandingPage = () => {
                     <p className='Landing-p'>
                         Encuentra libros cerca de ti, préstalos o solicita uno y enriquece tu comunidad lectora.
                     </p>
-                    <Button text="Bucar libros" />
+                    <Button>Buscar libros</Button>
                 </div>
             </div>
         </>

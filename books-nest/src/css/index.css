@@ -33,7 +33,7 @@
   form, input, label, select, option, textarea, button {
   font-size: inherit;
   font-family: inherit;
-  display: block;
+  /* display: block; */
   background-color: transparent;
   }
   
@@ -43,6 +43,8 @@
   
   html {
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
   }
   
   body {
@@ -50,4 +52,5 @@
   color: white;
   background-color: black;
   }
+
   /* Fin reset */

@@ -1,9 +1,9 @@
 import "../css/Button.css";
 
-export const Button = ({ text, onClick }) => {
+export const Button = ({ children, ...props }) => {
   return (
-    <button className="Button" onClick={onClick}>
-      {text}
+    <button {...props} className="Button">
+      {children}
     </button>
   );
 }
