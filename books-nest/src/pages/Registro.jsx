@@ -25,7 +25,7 @@ const Registro = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        navigate("perfil") //cuando terminas el registro, te lleva directamente a la página de admin
+        navigate("../perfil") 
         console.log(formData);
     };
 
@@ -39,7 +39,7 @@ const Registro = () => {
         <input onChange={handleChange} value={formData.username} type="email" name="username" placeholder="Escribe tu email" />
         <input onChange={handleChange} value={formData.password} type="password" name="password" placeholder="Escribe tu contraseña" />
         
-        <label htmlFor='tyc'><input className='Input-chekbox' type='checkbox' onChange={handleChange} name="tyc" checked={formData.tyc}/>Acepto los terminos y condiciones</label>
+        <label ><input className='Input-chekbox' type='checkbox' onChange={handleChange} name="tyc" checked={formData.tyc}/>Acepto los terminos y condiciones</label>
 
         {formData.tyc ? <Button>Registro</Button>
                       : <Button disabled >Acepte los términos y condiciones</Button>  }
